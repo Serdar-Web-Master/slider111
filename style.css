@@ -1,0 +1,40 @@
+body {
+    background-color: grey;
+    /* text-align: center; */
+ }
+ 
+ .block__out {
+    background-color: indigo;
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+ }
+ .block__in {
+    background-color: lawngreen;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+ 
+    position: relative;
+    border: black 3px solid;
+    overflow: hidden;
+ }
+ 
+ .btn__out1,
+ .btn__out2 {
+    margin: 0 auto;
+ }
+ 
+ .img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    transition: 2s;
+ }
+ 
+ .body {
+    background-color: blueviolet;
+ }
+ 
